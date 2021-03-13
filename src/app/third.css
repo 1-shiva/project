@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@200&display=swap');
+
+body{
+    font-family: 'Imbue', serif;
+    background-color: rgb(46, 45, 45);
+    color: #222;
+    margin: 0;
+}
+.container{
+    background-color: white;
+    transform-origin: top left;
+    transition: transform 0.5s linear;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 50px;
+}
+.container.show-nav{
+    transform: rotate(-20deg);
+}
+img {
+    width: 70%;
+}
+.circle{
+    background-color: rgb(11, 175, 240);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    transition: transform 0.5s linear;
+}
+.circle-container{
+   position: fixed;
+   top: -100px;
+   left: -100px;
+}
